@@ -10,7 +10,7 @@ updateText();
 
 function updateText() {
   characterIndex++;
-  containerElement.innerHTML = `<h1>Iam a ${careers[careerIndex].slice(0,characterIndex)}</h1>`;
+  containerElement.innerHTML = `<h1>Iam ${careers[careerIndex].slice(0, 1) === 'I' ? 'an' : 'a'} ${careers[careerIndex].slice(0, characterIndex)}</h1>`;
 
   if(characterIndex === careers[careerIndex].length) {
     careerIndex++;
@@ -20,6 +20,6 @@ function updateText() {
   if(careerIndex === careers.length) {
     careerIndex = 0;
   }
-  setTimeout(updateText, 400);
+  setTimeout(updateText, 40);
 }
 
