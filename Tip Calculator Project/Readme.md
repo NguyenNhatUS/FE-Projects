@@ -16,10 +16,6 @@ A modern and responsive Tip Calculator built with HTML, CSS, and JavaScript. Thi
 - **CSS** – Styling and layout
 - **JavaScript** – Logic and calculations
 
-## 🖼️ Screenshot
-
-![Tip Calculator Screenshot](screenshot.png) <!-- Optional: add your screenshot image -->
-
 ## 📋 How It Works
 
 1. Enter the **bill amount**.
